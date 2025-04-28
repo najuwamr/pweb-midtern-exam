@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wattpad Clone</title>
+    <link rel="icon" href="images/wattpad.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="desktop-nav">
+            <div class="left-nav">
+                <a href="index.html" class="logo">
+                    <img src="images/wattpad-logo.png" alt="Wattpad Logo">
+                </a>
+                <div class="nav-dropdown">
+                    <button class="nav-btn">Jelajahi <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="nav-dropdown">
+                    <button class="nav-btn">Komunitas <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+            </div>
+            <div class="search-container">
+                <form action="#" method="get">
+                    <button type="submit" class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Cari" class="search-input">
+                </form>
+            </div>
+            <div class="right-nav">
+                <div class="nav-dropdown">
+                    <button class="nav-btn">Tulis <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <button class="premium-btn">
+                    <span class="premium-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </span>
+                    Coba Premium
+                </button>
+                <div class="profile-dropdown">
+                    <button class="profile-btn">
+                        <img src="https://img.wattpad.com/useravatar/default-avatar.128.851613.jpg" alt="Profile" class="avatar">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <nav class="mobile-nav">
+            <div class="mobile-nav-top">
+                <a href="index.html" class="mobile-nav-item active">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#" class="mobile-nav-item">
+                    <i class="fa-solid fa-book"></i>
+                </a>
+                <a href="#" class="mobile-nav-item">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#" class="mobile-nav-item">
+                    <i class="fa-solid fa-bell"></i>  
+                </a>
+                <div class="mobile-profile">
+                    <img src="https://img.wattpad.com/useravatar/default-avatar.128.851613.jpg" alt="Profile" class="avatar-sm">
+                </div>
+            </div>
+            <div class="mobile-nav-second">
+                <a href="" class="logo">
+                    <img src="images/wattpad-logo.png" alt="Wattpad Logo">
+                </a>
+                <button class="premium-btn">
+                    <span class="premium-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </span>
+                    Coba Premium
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <section class="content-section your-stories">
+            <div class="section-header">
+                <h2>Ceritamu</h2>
+            </div>
+            <div class="story-list">
+            </div>
+        </section>
+        
+        <section class="content-section featured">
+            <div class="featured-content">
+                <h2>Rumah tangga sudah di ujung tanduk!</h2>
+                <p>Episode terakhir Santri Pilihan Bunda S2💍 Hanya di Vidio!</p>
+            </div>
+            <button class="featured-banner">
+                <img src="images/featured-content.jpg" alt="Featured Banner">
+            </button>
+        </section>
+        <div id="content"></div>
+        <section class="category-section">
+            <h2>Jelajahi genre</h2>
+            <br>
+            <div class="category-list" id="categoryList">
+            </div>
+            <button class="scroll-button" id="scrollRight">
+                >
+            </button>
+        </section>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Wattpad Originals</a></li>
+                <li><a href="#">Coba Premium</a></li>
+                <li><a href="#">Dapatkan App</a></li>
+                <li><a href="#">Bahasa</a></li>
+                <li><a href="#">Penulis</a></li>
+                <li class="divider">|</li>
+                <li><a href="#">Brand Partnerships</a></li>
+                <li><a href="#">Karier</a></li>
+                <li><a href="#">Massa</a></li>
+            </ul>
+        </div>
+        <div class="legal-links">
+            <ul>
+                <li><a href="#">Persyaratan</a></li>
+                <li><a href="#">Privasi</a></li>
+                <li><a href="#">Kebijakan Pembayaran</a></li>
+                <li><a href="#">Aksesibilitas</a></li>
+                <li><a href="#">Jangan Menjual Informasi Pribadi Saya</a></li>
+                <li><a href="#">Bantuan</a></li>
+                <li class="copyright">© 2025 Wattpad</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
