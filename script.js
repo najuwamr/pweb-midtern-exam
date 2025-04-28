@@ -2,18 +2,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const storyList = document.querySelector('.story-list');
   
     const userStories = [
-      {
-        title: 'Shamhat [Completed]',
-        status: 'Berlanjut',
-        chapter: 'Bab 1',
-        img: 'images/Shamhat.jpg' 
-      },
-      {
-        title: 'Chaldea Academy || Fate/Grand Order Fanfiction',
-        status: 'Berlanjut',
-        chapter: 'Bab 1',
-        img: 'images/Chaldea-academy.jpg' 
-      }
+        {
+          title: 'Shamhat [Completed]',
+          status: 'Berlanjut',
+          chapter: 'Bab 1',
+          img: 'images/Shamhat.jpg' 
+        },
+        {
+          title: 'Chaldea Academy || Fate/Grand Order Fanfiction',
+          status: 'Berlanjut',
+          chapter: 'Bab 1',
+          img: 'images/Chaldea-academy.jpg' 
+        }
     ];
   
     userStories.forEach(story => {
@@ -75,23 +75,23 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const sections = [
-        {
-          title: "Pilihan terbaik untukmu",
-          logo: "",
-          subtitle: "", 
-          books: [
-            { img: "images/void-of-avalon.jpg", tag: "fateseries" },
-            { img: "images/Stormbringer.jpg", tag: "bsd" },
-            { img: "images/dear-chuuya.jpg", tag: "fanfic" },
-            { img: "images/unforgetable-love.jpg", tag: "japanese" },
-            { img: "images/itachi.jpg", tag: "itachi" },
-            { img: "images/beast.jpg", tag: "beast" },
-            { img: "images/wattys.jpg", tag: "wattys" },
-            { img: "images/fiksi.jpg", tag: "fiksi" },
-            { img: "images/Chaldea-academy.jpg", tag: "fafiction" },
-            { img: "images/remaja.jpg", tag: "remaja" },
-          ],
-        },
+      {
+        title: "Pilihan terbaik untukmu",
+        logo: "",
+        subtitle: "", 
+        books: [
+          { img: "images/void-of-avalon.jpg", tag: "fateseries" },
+          { img: "images/Stormbringer.jpg", tag: "bsd" },
+          { img: "images/dear-chuuya.jpg", tag: "fanfic" },
+          { img: "images/unforgetable-love.jpg", tag: "japanese" },
+          { img: "images/itachi.jpg", tag: "itachi" },
+          { img: "images/beast.jpg", tag: "beast" },
+          { img: "images/wattys.jpg", tag: "wattys" },
+          { img: "images/fiksi.jpg", tag: "fiksi" },
+          { img: "images/Chaldea-academy.jpg", tag: "fafiction" },
+          { img: "images/remaja.jpg", tag: "remaja" },
+        ],
+      },
         {
           logo: "images/wattpad-originals.svg", 
           title: "Pelarian instanmu",
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
         bookItem.appendChild(tag);
         bookList.appendChild(bookItem);
       });
-    
+
       sectionEl.appendChild(bookList);
       content.appendChild(sectionEl);
     });      
